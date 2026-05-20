@@ -1,0 +1,1316 @@
+/* About Page Specific Styles */
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.mobile-menu-toggle svg {
+    display: block;
+}
+
+/* Override styles.css about-section styles for about.html */
+.about-hero .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.about-hero .about-content {
+    display: block;
+    color: white;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.about-hero .about-image {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* Our Products Section */
+.our-products-section {
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Banner Optimization */
+.products-full-banner {
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.products-full-banner .full-banner-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    min-height: 200px;
+}
+
+.products-container h2 {
+    font-size: 36px;
+    color: #1b4d3e;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.products-container > p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.product-item {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #f0f0f0;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+    border-color: #4CAF50;
+}
+
+.product-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #1b4d3e 0%, #2E7D32 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    color: white;
+}
+
+.product-icon svg {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.product-item h3 {
+    font-size: 24px;
+    color: #1b4d3e;
+    margin-bottom: 15px;
+}
+
+.product-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.products-cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.view-products-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #1b4d3e 0%, #2E7D32 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(27, 77, 62, 0.3);
+}
+
+.view-products-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(27, 77, 62, 0.4);
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+}
+
+.view-products-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.view-products-btn:hover svg {
+    transform: translateX(5px);
+}
+
+/* About Hero Section */
+.about-hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 20px 60px;
+    background: linear-gradient(135deg, rgba(27, 77, 62, 0.9) 0%, rgba(46, 125, 50, 0.8) 100%),
+                url('images/vecteezy_hand-holding-small-tree-for-planting-concept-green-world_8423419.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.about-container {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-image {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.about-content {
+    color: white;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.about-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.about-content h1 span {
+    color: #4CAF50;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    opacity: 0.9;
+    text-align: left;
+}
+
+.about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-design {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.about-logo {
+    width: 200px;
+    height: auto;
+    z-index: 10;
+}
+
+.crop-decoration {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.crop-left {
+    top: -20px;
+    left: -20px;
+}
+
+.crop-right {
+    bottom: -20px;
+    right: -20px;
+}
+
+/* Values Section */
+.values-section {
+    padding: 80px 20px;
+    background: #f5f5f5;
+}
+
+.values-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.values-container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1b4d3e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    text-align: left;
+}
+
+.value-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+}
+
+.value-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #1b4d3e 0%, #2E7D32 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    color: white;
+}
+
+.value-icon svg {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.value-card h3 {
+    font-size: 20px;
+    color: #1b4d3e;
+    margin-bottom: 15px;
+}
+
+.value-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1400px) {
+    .about-hero .about-container {
+        max-width: 1100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-hero .about-container {
+        gap: 60px;
+        max-width: 1000px;
+    }
+    
+    .product-item {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-hero .about-container {
+        gap: 50px;
+        max-width: 900px;
+    }
+    
+    .about-hero .about-content h1 {
+        font-size: 42px;
+    }
+    
+    .about-hero .about-content h2 {
+        font-size: 22px;
+    }
+    
+    .about-hero .about-content p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-hero .about-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .about-hero .about-content {
+        grid-column: 1;
+        grid-row: 2;
+        text-align: center;
+    }
+
+    .about-hero .about-image {
+        grid-column: 1;
+        grid-row: 1;
+        justify-content: center;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 36px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 16px;
+    }
+
+    .logo-design {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-logo {
+        width: 160px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+    }
+
+    .product-item {
+        padding: 30px;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+    }
+
+    .value-card {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 896px) {
+    .about-hero .about-container {
+        max-width: 700px;
+        gap: 35px;
+    }
+    
+    .about-hero .about-content h1 {
+        font-size: 34px;
+    }
+    
+    .about-hero .about-content h2 {
+        font-size: 20px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+    }
+    
+    .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 100px 15px 40px;
+    }
+
+    .about-hero .about-container {
+        gap: 30px;
+        padding: 0 15px;
+        max-width: 600px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 32px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 20px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .logo-design {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-logo {
+        width: 130px;
+    }
+
+    .crop-decoration {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .crop-left {
+        top: -15px;
+        left: -15px;
+    }
+
+    .crop-right {
+        bottom: -15px;
+        right: -15px;
+    }
+
+    .our-products-section {
+        padding: 60px 15px;
+    }
+
+    .products-container h2 {
+        font-size: 28px;
+    }
+
+    .products-container > p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .product-item {
+        padding: 25px;
+    }
+
+    .product-item h3 {
+        font-size: 20px;
+    }
+
+    .product-item p {
+        font-size: 15px;
+    }
+
+    .view-products-btn {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .values-section {
+        padding: 60px 15px;
+    }
+
+    .values-container h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .value-card {
+        padding: 25px;
+    }
+
+    .value-card h3 {
+        font-size: 18px;
+    }
+
+    .value-card p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-hero {
+        padding: 90px 10px 35px;
+    }
+
+    .about-hero .about-container {
+        gap: 25px;
+        padding: 0 10px;
+        max-width: 500px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 14px;
+        margin-bottom: 18px;
+        line-height: 1.5;
+    }
+
+    .logo-design {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-logo {
+        width: 110px;
+    }
+
+    .crop-decoration {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .crop-left {
+        top: -12px;
+        left: -12px;
+    }
+
+    .crop-right {
+        bottom: -12px;
+        right: -12px;
+    }
+
+    .our-products-section {
+        padding: 50px 10px;
+    }
+
+    .products-container h2 {
+        font-size: 26px;
+    }
+
+    .products-container > p {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+
+    .product-item {
+        padding: 20px;
+    }
+
+    .product-icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 18px;
+    }
+
+    .product-icon svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .product-item h3 {
+        font-size: 18px;
+    }
+
+    .product-item p {
+        font-size: 14px;
+    }
+
+    .view-products-btn {
+        padding: 11px 28px;
+        font-size: 13px;
+    }
+
+    .values-section {
+        padding: 50px 10px;
+    }
+
+    .values-container h2 {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+
+    .value-card {
+        padding: 20px;
+    }
+
+    .value-icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 18px;
+    }
+
+    .value-icon svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .value-card h3 {
+        font-size: 16px;
+    }
+
+    .value-card p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 100px 15px 40px;
+    }
+
+    .about-hero .about-container {
+        gap: 30px;
+        padding: 0 15px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 32px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 20px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .logo-design {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-logo {
+        width: 130px;
+    }
+
+    .crop-decoration {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .crop-left {
+        top: -15px;
+        left: -15px;
+    }
+
+    .crop-right {
+        bottom: -15px;
+        right: -15px;
+    }
+
+    .our-products-section {
+        padding: 60px 15px;
+    }
+
+    .products-container h2 {
+        font-size: 28px;
+    }
+
+    .products-container > p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .product-item {
+        padding: 25px;
+    }
+
+    .product-item h3 {
+        font-size: 20px;
+    }
+
+    .product-item p {
+        font-size: 15px;
+    }
+
+    .view-products-btn {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .values-section {
+        padding: 60px 15px;
+    }
+
+    .values-container h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .value-card {
+        padding: 25px;
+    }
+
+    .value-card h3 {
+        font-size: 18px;
+    }
+
+    .value-card p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-hero {
+        padding: 80px 8px 25px;
+    }
+
+    .about-hero .about-container {
+        padding: 0 8px;
+        gap: 20px;
+        max-width: 450px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 13px;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .logo-design {
+        width: 160px;
+        height: 160px;
+    }
+
+    .about-logo {
+        width: 100px;
+    }
+
+    .crop-decoration {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .crop-left {
+        top: -8px;
+        left: -8px;
+    }
+
+    .crop-right {
+        bottom: -8px;
+        right: -8px;
+    }
+
+    .our-products-section {
+        padding: 40px 8px;
+    }
+
+    .products-container h2 {
+        font-size: 22px;
+    }
+
+    .products-container > p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .products-grid {
+        gap: 20px;
+    }
+
+    .product-item {
+        padding: 18px;
+    }
+
+    .product-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .product-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .product-item h3 {
+        font-size: 16px;
+    }
+
+    .product-item p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .view-products-btn {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+
+    .values-section {
+        padding: 40px 8px;
+    }
+
+    .values-container h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .values-grid {
+        gap: 20px;
+    }
+
+    .value-card {
+        padding: 18px;
+    }
+
+    .value-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .value-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .value-card h3 {
+        font-size: 15px;
+    }
+
+    .value-card p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    /* Mobile Navigation */
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .glass-nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(27, 77, 62, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 1000;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .glass-nav-links.active {
+        display: flex;
+    }
+
+    .glass-nav-links li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .glass-nav-links li:last-child {
+        border-bottom: none;
+    }
+
+    .glass-nav-links a {
+        font-size: 14px;
+        padding: 12px 16px;
+        display: block;
+        transition: background 0.3s ease;
+    }
+
+    .glass-nav-links a:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .glass-nav-container {
+        position: relative;
+    }
+}
+
+@media (max-width: 414px) {
+    .about-hero {
+        padding: 75px 6px 20px;
+    }
+
+    .about-hero .about-container {
+        padding: 0 6px;
+        gap: 18px;
+        max-width: 400px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 24px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 15px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 12px;
+    }
+
+    .logo-design {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about-logo {
+        width: 85px;
+    }
+
+    .our-products-section {
+        padding: 35px 6px;
+    }
+
+    .products-container h2 {
+        font-size: 20px;
+    }
+
+    .products-container > p {
+        font-size: 13px;
+    }
+
+    .product-item {
+        padding: 15px;
+    }
+
+    .product-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .product-icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .product-item h3 {
+        font-size: 15px;
+    }
+
+    .product-item p {
+        font-size: 12px;
+    }
+
+    .view-products-btn {
+        padding: 9px 20px;
+        font-size: 11px;
+    }
+
+    .values-section {
+        padding: 35px 6px;
+    }
+
+    .values-container h2 {
+        font-size: 20px;
+    }
+
+    .value-card {
+        padding: 15px;
+    }
+
+    .value-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .value-icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .value-card h3 {
+        font-size: 14px;
+    }
+
+    .value-card p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-hero {
+        padding: 70px 5px 18px;
+    }
+
+    .about-hero .about-container {
+        padding: 0 5px;
+        gap: 15px;
+        max-width: 360px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 22px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 14px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 11px;
+    }
+
+    .logo-design {
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-logo {
+        width: 75px;
+    }
+
+    .our-products-section {
+        padding: 30px 5px;
+    }
+
+    .products-container h2 {
+        font-size: 18px;
+    }
+
+    .products-container > p {
+        font-size: 12px;
+    }
+
+    .product-item {
+        padding: 12px;
+    }
+
+    .product-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .product-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .product-item h3 {
+        font-size: 14px;
+    }
+
+    .product-item p {
+        font-size: 11px;
+    }
+
+    .view-products-btn {
+        padding: 8px 18px;
+        font-size: 10px;
+    }
+
+    .values-section {
+        padding: 30px 5px;
+    }
+
+    .values-container h2 {
+        font-size: 18px;
+    }
+
+    .value-card {
+        padding: 12px;
+    }
+
+    .value-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .value-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .value-card h3 {
+        font-size: 13px;
+    }
+
+    .value-card p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-hero {
+        padding: 65px 4px 15px;
+    }
+
+    .about-hero .about-container {
+        padding: 0 4px;
+        gap: 12px;
+        max-width: 310px;
+    }
+
+    .about-hero .about-content h1 {
+        font-size: 20px;
+    }
+
+    .about-hero .about-content h2 {
+        font-size: 13px;
+    }
+
+    .about-hero .about-content p {
+        font-size: 10px;
+    }
+
+    .logo-design {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-logo {
+        width: 65px;
+    }
+
+    .our-products-section {
+        padding: 25px 4px;
+    }
+
+    .products-container h2 {
+        font-size: 16px;
+    }
+
+    .products-container > p {
+        font-size: 11px;
+    }
+
+    .product-item {
+        padding: 10px;
+    }
+
+    .product-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .product-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .product-item h3 {
+        font-size: 12px;
+    }
+
+    .product-item p {
+        font-size: 10px;
+    }
+
+    .view-products-btn {
+        padding: 7px 15px;
+        font-size: 9px;
+    }
+
+    .values-section {
+        padding: 25px 4px;
+    }
+
+    .values-container h2 {
+        font-size: 16px;
+    }
+
+    .value-card {
+        padding: 10px;
+    }
+
+    .value-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .value-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .value-card h3 {
+        font-size: 12px;
+    }
+
+    .value-card p {
+        font-size: 10px;
+    }
+}
